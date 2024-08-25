@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@mfe/admin": ["libs/admin/src/index.ts"],
+      "@mfe/auth-util": ["libs/auth-util/src/index.ts"],
+      "@mfe/components": ["libs/components/src/index.ts"],
       "about/Routes": ["apps/about/src/app/remote-entry/entry.routes.ts"],
       "cart/Routes": ["apps/cart/src/app/remote-entry/entry.routes.ts"],
       "shop/Routes": ["apps/shop/src/app/remote-entry/entry.routes.ts"]
